@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="./day9.js"></script>
+    <style>
+      .blueClass {
+        background-color: aliceblue;
+        font-size: medium;
+        color: blueviolet;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .redClass {
+        background-color: burlywood;
+        font-size: large;
+        color: crimson;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="head">Welcome day9</div>
+    <div class="info">A day of interaction with html and javascript</div>
+
+    <button onclick="changeHeadText()">Click Me to update header</button>
+    <button onclick="changeBg()">Click Me to changeBackgroundColor</button>
+    <br />
+    <button onclick="addDivElement()">Click Me to add div element</button>
+    <ul id="unorderd">
+      <li>sldkj</li>
+      <li>lsdfj</li>
+      <li>lkdjf</li>
+      <li>foeiw</li>
+      <li>lwejr</li>
+    </ul>
+    <button onclick="addLiElement()">Click Me to add li element</button>
+    <br />
+    <button onclick="removeAddedDiv()">Click Me to remove div element</button>
+
+    <button onclick="deleteLastElement()">
+      Click Me to remove last li element
+    </button>
+    <br />
+    <input type="text" name="fname" id="textField" />
+    <button onclick="updateTextField()">Click Me to change field type</button>
+    <br />
+    <div id="styleMe">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+      officia dolor debitis ducimus quos enim distinctio reprehenderit facere
+      saepe aut! Magnam ratione explicabo est natus vitae perspiciatis aut
+      debitis enim.
+    </div>
+    <button onclick="changeClassName()">
+      Click me to change my paragraphs styling
+    </button>
+    <br />
+    <div class="changeMe">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt at
+      similique nemo maxime porro ipsam vel nesciunt nisi accusamus molestiae,
+      id atque impedit quibusdam eius facilis nam iste minima obcaecati.
+    </div>
+    <button id="changeMeButton">
+      clickMe after event added to add new text to above para
+    </button>
+    <button onclick="addClickEvent()">Add clickEvent to above button</button>
+    <br />
+    <span class="hoverMe">Change my border on hover</span>
+    <button onclick="addHoverEvent()">Add hover event on above line</button>
+  </body>
+</html>
